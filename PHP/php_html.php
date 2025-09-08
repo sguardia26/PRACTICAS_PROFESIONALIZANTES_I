@@ -1,19 +1,22 @@
 <?php
-    //CABECERA
-    header('Content-Type: text/html; charset=UFT-8');
-    
-    //VARIABLE CHAR
-    $respuesta='';
+// CABECERA
+header('Content-Type: text/html; charset=utf-8');
 
-    $respuesta= '<!DOCTYPE html>';
-    $respuesta= '<html lang="es">';
-    $respuesta= ''; //ESPACIOS
-    $respuesta= '<head>';
-    $respuesta= '<meta charset= "UFT-8">';
-    $respuesta= '<meta name="vievport" contect="width=device-width, initial-scalet=1.0"';
-    $respuesta= '<title> PHP/HTML </title>';
-    $respuesta= '</head>';
-    $respuesta= '';
-    $respuesta= '<body>';
-    $respuesta= ''; 
+$respuesta = ''; // Se inicializa la variable para acumular
+
+// Estructura HTML
+$respuesta .= '<!DOCTYPE html>';
+$respuesta .= '<html lang="es">';
+$respuesta .= '<head>';
+$respuesta .= '<meta charset="utf-8">'; 
+$respuesta .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+$respuesta .= '<title>PHP/HTML</title>';
+$respuesta .= '</head>';
+$respuesta .= '<body>';
+//CUERPO
+$respuesta .= '</body>';
+$respuesta .= '</html>';
+
+// Imprime la estructura HTML completa
+echo $respuesta;
 ?>
