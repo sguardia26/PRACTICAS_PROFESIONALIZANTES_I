@@ -21,24 +21,4 @@ try {
     // Manejo de error
     echo "Error al consultar los alumnos: " . $e->getMessage();
 }
-
-// 5. En el HTML (¡Importante la seguridad!)
 ?>
-<table>
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php foreach ($alumnos as $alumno): ?>
-            <tr>
-                <td><?= htmlspecialchars($alumno['nombre']) ?></td>
-                <td><?= htmlspecialchars($alumno['apellido']) ?></td>
-                <td><?= htmlspecialchars($alumno['email']) ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
