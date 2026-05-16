@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(30,26,77);
+    font-family: 'Nunito';
+    color: white;
+    margin: 0;
+}
+
+.portada{
+    width: 100%;
+}
+
+header{
+    background-color: white;
+    color: rgb(30,26,77);
+}
+
+header h1{
+    text-align: center;
+    font-size: 2em;
+}

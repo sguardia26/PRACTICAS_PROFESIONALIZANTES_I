@@ -1,31 +1,17 @@
-/*SELECTOR BODY*/
+/*SELECTOR CUERPO*/
 body{
     /*BLOQUE DE DECLARACIONES*/
-    background-color: purple;/*COLOR DE FONDO DE LA PAGINA*/
-    font-family: 'Times New Roman', Times, serif;/*TIPOGRAFIA*/
-    color: white;/*COLOR DE LA TIPOGRAFIA*/
-    text-align: center; /*DIRECCION DE LA FUENTE*/
-    font-size: 1em;/*TAMAÑO DE LA FUENTE*/
+    background-color: yellow;/*COLOR DE FONDO*/
+    color: purple; /*COLOR DE LA TIPOGRAFIA*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*CAMBIAR FORMATO DE TIPOGRAFIA*/
+    font-size: 3em;/*CAMBIAR EL TAMAÑO DE LA TIPOGRAFIA*/
+    text-align: center;/*ORIENTACIÓN*/
 }
+
 h1{
-    background-color: white;
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
-}
-h2{
-    background-color: blue;
-    color: chartreuse;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3em;
-}
-p{
-    background-color: black;
-    color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-}
-img{
-    width: 50%;
-    padding: 200px 100px;
+    text-align: left;
 }
