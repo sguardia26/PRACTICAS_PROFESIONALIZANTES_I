@@ -15,3 +15,25 @@ h1{
     font-size: 2em;
     text-align: left;
 }
+
+h2{
+    background-color: black;
+    color: lightgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    text-align: right;
+}
+/*IMAGENES*/
+img{
+    width: 400px; /*ANCHO*/
+    height: 300px; /*ALTO*/
+}
+/*CLASES*/
+.img2{
+    width: 30%;
+    height: 30%;
+            /*EJE Y*/  /*EJE X*/
+    padding: 100px      100px;
+}
+
+/*VIDEOS*/
