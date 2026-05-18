@@ -18,3 +18,24 @@ header h1{
     text-align: center;
     font-size: 2em;
 }
+
+main{
+    background-color: white;
+    color: rgb(30,26,77);
+}
+
+main h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+main ul{
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+}
+
+.imgmain{
+    width: 100%;
+    height: 100%;
+}
