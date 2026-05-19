@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(30,26,77);
+    background-color: white;
     font-family: 'Nunito';
-    color: white;
+    color: rgb(30,26,77);
     margin: 0;
 }
 
@@ -10,11 +10,13 @@ body{
 }
 
 header{
-    background-color: white;
-    color: rgb(30,26,77);
+    background-color: rgb(30,26,77);
+    color: white;
 }
 
 header h1{
+    background-color: white;
+    color: rgb(30,26,77);
     text-align: center;
     font-size: 2em;
 }
@@ -26,16 +28,51 @@ main{
 
 main h2{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+main h4{
+    text-align: left;
 }
 
 main ul{
-    background-color: lightpink;
-    color: black;
+    background-color: rgb(30,26,77);
+    color: white;
     text-align: center;
 }
-
+/*CLASES*/
 .imgmain{
-    width: 100%;
-    height: 100%;
+    background-color: rgb(30,26,77);
+    width: 50%;
+    height: 50%;
+    padding: 0 200px;
+}
+/*ID*/
+#youtube{
+    border-color: red;
+    border-width: 20px;
+    border-style: solid;
+}
+/*BOTONES*/
+footer{
+    background-color: white;
+    padding: 50px 0;
+}
+footer a{
+    padding: 0 230px;
+}
+footer button{
+    background-color: rgb(30,26,77);
+    color: white;
+    border-color: blueviolet;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+}
+footer button:focus{
+    background-color: yellow;
+    color: black;
+    border-color: red;
 }
