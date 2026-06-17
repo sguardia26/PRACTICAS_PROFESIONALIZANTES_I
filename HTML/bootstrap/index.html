@@ -35,39 +35,48 @@
         </div>
     </nav>
     <!--FORMULARIO-->
-    <h1 class="bg bg-primary text-secondary text-center mb-4" >BOOTSTRAP</h1>
-    <div class="position-absolute top-50 start-50 translate-middle">
-        <form action="#" class="btn bg-black text-white">
-            <!--TITULO-->
-            <div class="mb-3">
-                <h3 class="text-center">FORMULARIO</h3>
-            </div>
-            <!--PARAMETROS-->
-            <!--USUARIO-->
-            <div class="mb-2">
-                <label for="exampleInputEmail1" class="form-label">USUARIO</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div class="form-text text-danger" id="emailHelp">Ingresar su nombre de usuario o e-mail.</div>
-            </div>
-            <!--CONTRASEÑA-->
-            <div class="mb-2">
-                <label for="exampleInputPassword1" class="form-label">CONTRASEÑA</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-                <div class="form-text text-danger id="passwordHelp">Ingresar su contraseña.</div>
-            </div>
-            <!--OPCION-->
-            <div class="mb-2 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label for="exampleCheck1" class="form-check-label"> ¿Acepta los terminos y condiciones?</label>
-            </div>
-            <div class="mb-2 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                <label for="exampleCheck2" class="form-check-label">¿Pertenece a nuestra entidad?</label>
-            </div>
-            <!--BOTON-->
-            <button type="submit" class="btn btn-success">Iniciar Sesion</button>
-        </form>
+    <!--TITULO-->
+    <div class="bg bg-primary text-light text-center">
+        <h1>BOOTSTRAP</h1>
     </div>
+    <!--LOGIN-->
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="card shadow p-4" style="width: 400px;">
+         <link rel="icon" href="media/clipart.png" type="image/x-icon">
+        <div class="text-center mb-3">
+        <img src="media/logotipobootstrap.png" alt="Logo" width="100">
+    </div>
+    <form>
+        <div class="text-center mb-4">
+            <h3>Login</h3>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Usuario</label>
+            <input type="text" class="form-control">
+            <div class="form-text">Ingresar el usuario</div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input type="password" class="form-control">
+            <div class="form-text ">Ingresar la contraseña</div>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label">
+                Aceptar términos y condiciones
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">
+            Iniciar sesión
+        </button>
+    </form>
+    </div>
+</div>
     <!--JS BOOTSTRAP LINK-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
