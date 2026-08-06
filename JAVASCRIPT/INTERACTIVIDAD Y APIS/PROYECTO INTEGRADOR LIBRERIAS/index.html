@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integración de Librerías - Frontend</title>
+    
+    <!-- BOOTSTRAP (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FONTAWESOME (Íconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- TOASTIFY (CSS para Notificaciones pequeñas) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <!-- AOS (CSS para Animaciones al hacer scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        /* Espaciado extra para forzar el scroll y probar AOS */
+        .seccion-espaciada { margin-top: 100vh; margin-bottom: 50vh; }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5 text-center">
+        <h1 class="mb-4"><i class="fa-solid fa-laptop-code text-primary"></i> Panel de Interacciones</h1>
+        
+        <div class="row justify-content-center gap-3">
+            <!-- Botón SweetAlert -->
+            <div class="col-md-4 card p-4 shadow-sm">
+                <h3>Alerta Modal</h3>
+                <p>Prueba de SweetAlert2</p>
+                <button id="btn-alerta" class="btn btn-danger"><i class="fa-solid fa-triangle-exclamation"></i> Borrar Sistema</button>
+            </div>
+
+            <!-- Botón Toastify -->
+            <div class="col-md-4 card p-4 shadow-sm">
+                <h3>Notificación Toast</h3>
+                <p>Prueba de Toastify JS</p>
+                <button id="btn-toast" class="btn btn-success"><i class="fa-solid fa-floppy-disk"></i> Guardar Cambios</button>
+            </div>
+        </div>
+
+        <!-- Elemento con animación AOS -->
+        <div class="seccion-espaciada">
+            <div class="card p-5 bg-dark text-white shadow" data-aos="fade-up" data-aos-duration="1500">
+                <h2><i class="fa-solid fa-rocket"></i> ¡Aparecí con AOS!</h2>
+                <p>Esta tarjeta se animó automáticamente al hacer scroll hacia abajo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS DE LIBRERÍAS -->
+    <!-- SweetAlert2 (JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify (JS) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- AOS (JS) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- SCRIPT PERSONALIZADO -->
+    <script src="script.js"></script>
+</body>
+</html>
