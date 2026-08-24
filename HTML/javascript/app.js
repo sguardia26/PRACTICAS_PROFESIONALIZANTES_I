@@ -1,8 +1,9 @@
-const prompt = require('prompt-sync')();
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
 
 //SUMA
-let numero1 = prompt("Ingresar el numero1: ");
-let nuemro2 = prompt("Ingresar el numero2: ");
+let numero1 = parseInt(prompt("Ingresar el numero1: "));
+let nuemro2 = parseInt(prompt("Ingresar el numero2: "));
 
 let suma = nuemro2 + numero1;
 
