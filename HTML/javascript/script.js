@@ -1,15 +1,29 @@
-//Tipos de Datos y Variables
-//Variable Asignacion
-let entero = 10;
-let decimal = 10.5;
-let caracter = "Practicas";
+//HOLA MUNDO
+console.log("HOLA PRACTICAS");
+
+//Variables y Tipos de Datos
+//Constante
+const pi = 3.14;
+console.log("La variable constante es: " , pi , pi);
+
+//Asignacion
+let numeroentero = 10;
+let numerodecimal = 90.9;
+let cadenadecaracteres = "Practicas";
 let logico = true;
 
+<<<<<<< Updated upstream
 //Operadores Aritmeticos
+=======
+console.log("El numero entero es: ", numeroentero);
+
+//Operacion Aritmeticas
+>>>>>>> Stashed changes
 //SUMA
 //RESTA
 //PRODUCTO
 //COCIENTE
+<<<<<<< Updated upstream
 //POTENCIA
 let base = 2;
 let exponente = 3;
@@ -40,3 +54,7 @@ if (numero3 > 0) {
     console.log("El numero es negativo: ", numero3);
 }
 
+=======
+//POTENCIA 
+//RAIZ
+>>>>>>> Stashed changes
