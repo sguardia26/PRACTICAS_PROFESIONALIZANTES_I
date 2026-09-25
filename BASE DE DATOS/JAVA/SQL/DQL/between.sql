@@ -1,0 +1,2 @@
+SELECT * FROM notas 
+WHERE calificacion BETWEEN 7.00 AND 10.00;

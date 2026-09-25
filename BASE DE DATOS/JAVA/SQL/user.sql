@@ -1,0 +1,1 @@
+CREATE USER IF NOT EXISTS 'dev_cen_nonogasta'@'localhost' IDENTIFIED BY 'Cen.1234';
