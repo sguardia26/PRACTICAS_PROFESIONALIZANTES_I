@@ -1,0 +1,24 @@
+/* Estilos personalizados para la interfaz */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    font-size: 0.9rem;
+}
+
+.btn-sm {
+    border-radius: 4px;
+}
