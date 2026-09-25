@@ -1,0 +1,5 @@
+# 1. Inicializar el proyecto
+npm init -y
+
+# 2. Instalar el conector oficial de MySQL con soporte para promesas
+npm install mysql2

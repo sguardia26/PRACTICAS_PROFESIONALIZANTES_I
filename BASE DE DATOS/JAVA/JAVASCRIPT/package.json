@@ -1,0 +1,6 @@
+{
+  "name": "backend-sql-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js"
+}
